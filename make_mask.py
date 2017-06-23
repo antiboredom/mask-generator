@@ -60,6 +60,12 @@ def make_mask(path):
     if img is None:
         return None
 
+    if not os.path.exists('eyes'):
+        os.makedirs('eyes')
+
+    if not os.path.exists('masks'):
+        os.makedirs('masks')
+
     masked = alpha_image(img, points, 1)
     masked = fill(masked, points[LEFT_EYE_POINTS])
     masked = fill(masked, points[RIGHT_EYE_POINTS])

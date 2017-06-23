@@ -1,6 +1,5 @@
 env/
 *.pyc
-*.png
 *.jpg
 *.json
 *.mp4
