@@ -2,6 +2,10 @@
 
 A python script that generates printable, cutout masks from face images. This script makes use of code from Alyssa Quek's [Face Morpher library](https://github.com/alyssaq/face_morpher).
 
+Created for the New Inquiry's ["You Can Encrypt Your Face"](https://thenewinquiry.com/you-can-encrypt-your-face/).
+
+![](http://saaaam.s3.amazonaws.com/biometric/exec_masks/0114.jpg)
+
 ## Installation
 
 Clone this repo:
