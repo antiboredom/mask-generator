@@ -1,0 +1,16 @@
+env/
+*.pyc
+*.png
+*.jpg
+*.json
+*.mp4
+*.html
+*.pdf
+data/
+eyefield/
+eyefield2/
+masks/
+eyes/
+images/
+people/
+
