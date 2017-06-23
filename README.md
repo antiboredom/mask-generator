@@ -31,3 +31,5 @@ python make_mask.py [FILENAME]
 
 The script will attempt to locate a face in the image you provide, cut out the face, remove the eyes, and put it on a background.
 
+Masks will be saved in a `masks` folder, and eyeballs in an `eyes` folder.
+
